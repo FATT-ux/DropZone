@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn {
+    cursor: pointer;
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    padding: 5px 0;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.25s ease;
+}
+
+.active {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.active::after {
+    width: 100%;
+}
+
+.info{
+    font-size: 12px;
+    padding-top: 35px;
+    max-width: 760px;
+}
+
+.infoDeliveryDesc + .infoDeliveryDesc{
+    margin-top: 20px;
+}
+.mail{
+    display: inline-block;
+    color: #000000;
+}
+
+.details + .details{
+    margin-top: 4px;
+}
+
+.detailsText{
+    margin-top: 20px;
+}
+
+.detailsTextDesc{
+    margin-top: 5px;
+}
+
+.infoImg {
+    margin-left: 30%;
+    width: 600px;
+    height: 600px;    
+}
+
+.imgSize{
+    width: 100%;
+    height: auto;
+    display: block;
+}

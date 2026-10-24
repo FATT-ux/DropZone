@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+
+backend/db.js
+backend/config.js
+backend/.env
+.env
+
+backend/node_modules/
+
+npm-debug.log*

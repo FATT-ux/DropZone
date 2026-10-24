@@ -1,0 +1,31 @@
+.aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background: #ffffff;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    z-index: 10000;
+}
+
+.close{
+    position: absolute;
+    font-weight: 100;
+    font-size: 20px;
+    left: 90%;
+    cursor: pointer;
+}
+
+.text p:first-child{
+    margin-top: 20px;
+}
+.desc{
+ font-weight: 300;
+ font-size: 20px;
+}
+
+.desc + .desc{
+    margin-top: 5px;
+}
